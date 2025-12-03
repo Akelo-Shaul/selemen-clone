@@ -33,3 +33,255 @@ html, body {
     scale: 2;
     opacity: 1;
 }
+
+.pt {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+}
+
+.pt h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.pt p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#pt1{
+    clip-path: polygon(0 100%, 100% 100%, 100% 0%, 0 0%);
+}
+
+#pt2{
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+}
+
+#pt3{
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+}
+
+#slide7 h1 {
+    font-size: 18vw;
+    color: #494A4F;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#page9 h1 {
+    font-size: 8vw;
+    line-height: 1;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: -3px;
+}
+
+#page9 .over {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    background-color: rgba(21, 21, 25, 0.511);
+}
+
+#page9 div {
+    position: relative;
+    display: flex;
+    align-items: start;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+
+#page9 #ig91 {
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    width: 20%;
+    z-index: 99;
+    mix-blend-mode: difference;
+}
+
+#page9 #ig92 {
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    width: 30%;
+    z-index: 99;
+}
+
+#page9 #ig93 {
+    position: absolute;
+    bottom: -11%;
+    left: 0;
+    width: 20%;
+}
+
+#page10 h4{
+    color: #ffffffcd;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+#about h4::after {
+  content: "→";              /* Unicode arrow */
+  margin-left: 8px;          /* space between text and arrow */
+  transition: transform 0.3s ease;
+}
+
+#about h4:hover::after{
+    transform: translateX(4px);
+}
+
+#page11 h4 {
+    font-size: 14px;
+    font-weight: 200px;
+    color: #fff;
+}
+
+#page11 h2 {
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#ii1 {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    height: 50%;
+    width: 18%;
+    background-image: url(https://selemen.liqium.com/img/j4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 60px 30px;
+    align-items: flex-start;
+    justify-content: end;
+    flex-direction: column;
+    text-align: left;
+}
+
+#ii2 {
+    position:absolute;
+    top: 35%;
+    left: 30%;
+    height: 50%;
+    width: 40%;
+    background-image: url(https://selemen.liqium.com/img/j5.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 60px 30px;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+
+#ii3 {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 50%;
+    width: 27%;
+    background-image: url(https://selemen.liqium.com/img/j6.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 60px 30px;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+
+#page11 h1, #page12 h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 150px;
+}
+
+#page11 p, #page12 p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100; 
+    margin-top: 28px;
+}
+
+#page13 .elems {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page13 .elems:nth-child(2) {
+    width: 35%;
+    background-image: url(https://selemen.liqium.com/img/mv5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#page13 .s1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page13 .s2 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s1 .im1 {
+    width: 100%;
+    height: 50%;
+}
+
+.s1 .im2 {
+    width: 100%;
+    height: 40%;
+}
+
+.s2 .im3 {
+    width: 100%;
+    height: 60%;
+}
+
+.s2 .im4 {
+    width: 100%;
+    height: 30%;
+}
+
+.s2 .im5 {
+    width: 100%;
+    height: 50%;
+}
+
+.s2 .im6 {
+    width: 100%;
+    height: 45%;
+}
